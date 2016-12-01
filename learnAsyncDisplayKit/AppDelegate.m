@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "FpsViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) UIWindow *alertWindow;
 
 @end
 
@@ -16,8 +20,28 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
+    [self addFpsWindow];
+//    UIWindow *window1 = [[UIWindow alloc] initWithFrame:CGRectMake(0, 80, 320, 320)];
+//    window1.backgroundColor = [UIColor redColor];
+//    window1.windowLevel = UIWindowLevelAlert;
+//    [window1 makeKeyAndVisible];
     return YES;
+}
+
+- (void)addFpsWindow{
+    _alertWindow = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, self.window.bounds.size.width, 20)];
+    _alertWindow.backgroundColor = [UIColor redColor];
+    _alertWindow.windowLevel = UIWindowLevelAlert;
+    
+    FpsViewController *fpsVc = [[FpsViewController alloc] init];
+    _alertWindow.rootViewController = fpsVc;
+    
+    [_alertWindow makeKeyAndVisible];
 }
 
 

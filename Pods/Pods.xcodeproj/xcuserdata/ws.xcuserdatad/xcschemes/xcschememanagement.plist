@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-learnAsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4957884B085DE143FDFB176337C1C373</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>924AED5C1E131EFC40E84106111F4C2C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C921BA7F290225FFA512797681C64544</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D08681248FEFCF211554AA6B1A80195A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

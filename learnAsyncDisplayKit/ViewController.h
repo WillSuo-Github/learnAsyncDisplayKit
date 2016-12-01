@@ -2,7 +2,7 @@
 //  ViewController.h
 //  learnAsyncDisplayKit
 //
-//  Created by 岩柯李 on 2016/11/19.
+//  Created by ws on 2016/11/27.
 //  Copyright © 2016年 WS. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

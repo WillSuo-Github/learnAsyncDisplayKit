@@ -7,25 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5409BB581DEABE4700B8D4D3 /* WSASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409BB571DEABE4700B8D4D3 /* WSASViewController.m */; };
+		5409BB9C1DEAC95E00B8D4D3 /* WSASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409BB9B1DEAC95E00B8D4D3 /* WSASTableViewCell.m */; };
+		5409BBA31DEAD33A00B8D4D3 /* WSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409BBA21DEAD33A00B8D4D3 /* WSCollectionViewController.m */; };
+		5409BBA61DEAD35A00B8D4D3 /* WSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409BBA51DEAD35A00B8D4D3 /* WSCollectionViewCell.m */; };
+		5409BBA91DEAD5F700B8D4D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409BBA81DEAD5F700B8D4D3 /* ViewController.m */; };
+		5409E7BA1DE9A5890066BC47 /* WSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409E7B91DE9A5890066BC47 /* WSCell.m */; };
 		7DF74E781DE05B11008B0F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF74E771DE05B11008B0F14 /* main.m */; };
 		7DF74E7B1DE05B11008B0F14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF74E7A1DE05B11008B0F14 /* AppDelegate.m */; };
-		7DF74E7E1DE05B11008B0F14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF74E7D1DE05B11008B0F14 /* ViewController.m */; };
-		7DF74E811DE05B11008B0F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF74E7F1DE05B11008B0F14 /* Main.storyboard */; };
 		7DF74E831DE05B11008B0F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF74E821DE05B11008B0F14 /* Assets.xcassets */; };
 		7DF74E861DE05B11008B0F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF74E841DE05B11008B0F14 /* LaunchScreen.storyboard */; };
+		7DF74E8F1DE063AF008B0F14 /* WSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF74E8E1DE063AF008B0F14 /* WSViewController.m */; };
+		7DF74E921DE06829008B0F14 /* FpsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF74E911DE06829008B0F14 /* FpsViewController.m */; };
+		F18FC1B36B7D51050157B0C2 /* libPods-learnAsyncDisplayKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BAC462DF0008D9B6FE8F7E /* libPods-learnAsyncDisplayKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5409BB561DEABE4700B8D4D3 /* WSASViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSASViewController.h; sourceTree = "<group>"; };
+		5409BB571DEABE4700B8D4D3 /* WSASViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSASViewController.m; sourceTree = "<group>"; };
+		5409BB9A1DEAC95E00B8D4D3 /* WSASTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSASTableViewCell.h; sourceTree = "<group>"; };
+		5409BB9B1DEAC95E00B8D4D3 /* WSASTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSASTableViewCell.m; sourceTree = "<group>"; };
+		5409BBA11DEAD33A00B8D4D3 /* WSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCollectionViewController.h; sourceTree = "<group>"; };
+		5409BBA21DEAD33A00B8D4D3 /* WSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCollectionViewController.m; sourceTree = "<group>"; };
+		5409BBA41DEAD35A00B8D4D3 /* WSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCollectionViewCell.h; sourceTree = "<group>"; };
+		5409BBA51DEAD35A00B8D4D3 /* WSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCollectionViewCell.m; sourceTree = "<group>"; };
+		5409BBA71DEAD5F700B8D4D3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5409BBA81DEAD5F700B8D4D3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5409E7B81DE9A5890066BC47 /* WSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCell.h; sourceTree = "<group>"; };
+		5409E7B91DE9A5890066BC47 /* WSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCell.m; sourceTree = "<group>"; };
 		7DF74E731DE05B11008B0F14 /* learnAsyncDisplayKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnAsyncDisplayKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF74E771DE05B11008B0F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DF74E791DE05B11008B0F14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DF74E7A1DE05B11008B0F14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DF74E7C1DE05B11008B0F14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DF74E7D1DE05B11008B0F14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7DF74E801DE05B11008B0F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DF74E821DE05B11008B0F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF74E851DE05B11008B0F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF74E871DE05B11008B0F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF74E8D1DE063AF008B0F14 /* WSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSViewController.h; sourceTree = "<group>"; };
+		7DF74E8E1DE063AF008B0F14 /* WSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSViewController.m; sourceTree = "<group>"; };
+		7DF74E901DE06829008B0F14 /* FpsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FpsViewController.h; sourceTree = "<group>"; };
+		7DF74E911DE06829008B0F14 /* FpsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FpsViewController.m; sourceTree = "<group>"; };
+		9D58B9B814EA480A5A1DE185 /* Pods-learnAsyncDisplayKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnAsyncDisplayKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-learnAsyncDisplayKit/Pods-learnAsyncDisplayKit.release.xcconfig"; sourceTree = "<group>"; };
+		D1BAC462DF0008D9B6FE8F7E /* libPods-learnAsyncDisplayKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-learnAsyncDisplayKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BABCB78B4AD3C444482AC5 /* Pods-learnAsyncDisplayKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnAsyncDisplayKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learnAsyncDisplayKit/Pods-learnAsyncDisplayKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +56,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18FC1B36B7D51050157B0C2 /* libPods-learnAsyncDisplayKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5409BB981DEAC92D00B8D4D3 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				5409BBA01DEACFCC00B8D4D3 /* collectionView */,
+				5409BB9F1DEACFC800B8D4D3 /* tableView */,
+			);
+			name = Normal;
+			sourceTree = "<group>";
+		};
+		5409BB991DEAC93E00B8D4D3 /* AS */ = {
+			isa = PBXGroup;
+			children = (
+				5409BB9E1DEACFBA00B8D4D3 /* collectionView */,
+				5409BB9D1DEACFAD00B8D4D3 /* tableView */,
+			);
+			name = AS;
+			sourceTree = "<group>";
+		};
+		5409BB9D1DEACFAD00B8D4D3 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				5409BB561DEABE4700B8D4D3 /* WSASViewController.h */,
+				5409BB571DEABE4700B8D4D3 /* WSASViewController.m */,
+				5409BB9A1DEAC95E00B8D4D3 /* WSASTableViewCell.h */,
+				5409BB9B1DEAC95E00B8D4D3 /* WSASTableViewCell.m */,
+			);
+			name = tableView;
+			sourceTree = "<group>";
+		};
+		5409BB9E1DEACFBA00B8D4D3 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
+		5409BB9F1DEACFC800B8D4D3 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				7DF74E8D1DE063AF008B0F14 /* WSViewController.h */,
+				7DF74E8E1DE063AF008B0F14 /* WSViewController.m */,
+				5409E7B81DE9A5890066BC47 /* WSCell.h */,
+				5409E7B91DE9A5890066BC47 /* WSCell.m */,
+			);
+			name = tableView;
+			sourceTree = "<group>";
+		};
+		5409BBA01DEACFCC00B8D4D3 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5409BBA11DEAD33A00B8D4D3 /* WSCollectionViewController.h */,
+				5409BBA21DEAD33A00B8D4D3 /* WSCollectionViewController.m */,
+				5409BBA41DEAD35A00B8D4D3 /* WSCollectionViewCell.h */,
+				5409BBA51DEAD35A00B8D4D3 /* WSCollectionViewCell.m */,
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
 		7DF74E6A1DE05B11008B0F14 = {
 			isa = PBXGroup;
 			children = (
+				7DF74E901DE06829008B0F14 /* FpsViewController.h */,
+				7DF74E911DE06829008B0F14 /* FpsViewController.m */,
 				7DF74E751DE05B11008B0F14 /* learnAsyncDisplayKit */,
 				7DF74E741DE05B11008B0F14 /* Products */,
+				CB69C8FBFB084F83758508F8 /* Pods */,
+				F837CE5D47769D763DE02D94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +144,12 @@
 		7DF74E751DE05B11008B0F14 /* learnAsyncDisplayKit */ = {
 			isa = PBXGroup;
 			children = (
+				5409BB991DEAC93E00B8D4D3 /* AS */,
+				5409BB981DEAC92D00B8D4D3 /* Normal */,
 				7DF74E791DE05B11008B0F14 /* AppDelegate.h */,
 				7DF74E7A1DE05B11008B0F14 /* AppDelegate.m */,
-				7DF74E7C1DE05B11008B0F14 /* ViewController.h */,
-				7DF74E7D1DE05B11008B0F14 /* ViewController.m */,
-				7DF74E7F1DE05B11008B0F14 /* Main.storyboard */,
+				5409BBA71DEAD5F700B8D4D3 /* ViewController.h */,
+				5409BBA81DEAD5F700B8D4D3 /* ViewController.m */,
 				7DF74E821DE05B11008B0F14 /* Assets.xcassets */,
 				7DF74E841DE05B11008B0F14 /* LaunchScreen.storyboard */,
 				7DF74E871DE05B11008B0F14 /* Info.plist */,
@@ -79,6 +166,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CB69C8FBFB084F83758508F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3BABCB78B4AD3C444482AC5 /* Pods-learnAsyncDisplayKit.debug.xcconfig */,
+				9D58B9B814EA480A5A1DE185 /* Pods-learnAsyncDisplayKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F837CE5D47769D763DE02D94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1BAC462DF0008D9B6FE8F7E /* libPods-learnAsyncDisplayKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DF74E8A1DE05B11008B0F14 /* Build configuration list for PBXNativeTarget "learnAsyncDisplayKit" */;
 			buildPhases = (
+				9E8626030EA99D8CDAA0A371 /* [CP] Check Pods Manifest.lock */,
 				7DF74E6F1DE05B11008B0F14 /* Sources */,
 				7DF74E701DE05B11008B0F14 /* Frameworks */,
 				7DF74E711DE05B11008B0F14 /* Resources */,
+				7C46F9FDC85CA783D26B2A42 /* [CP] Embed Pods Frameworks */,
+				45CF4B599DE660214C4D3632 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +217,7 @@
 				TargetAttributes = {
 					7DF74E721DE05B11008B0F14 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NT9VR9C9HY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,34 +247,80 @@
 			files = (
 				7DF74E861DE05B11008B0F14 /* LaunchScreen.storyboard in Resources */,
 				7DF74E831DE05B11008B0F14 /* Assets.xcassets in Resources */,
-				7DF74E811DE05B11008B0F14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45CF4B599DE660214C4D3632 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learnAsyncDisplayKit/Pods-learnAsyncDisplayKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C46F9FDC85CA783D26B2A42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learnAsyncDisplayKit/Pods-learnAsyncDisplayKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8626030EA99D8CDAA0A371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DF74E6F1DE05B11008B0F14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF74E7E1DE05B11008B0F14 /* ViewController.m in Sources */,
 				7DF74E7B1DE05B11008B0F14 /* AppDelegate.m in Sources */,
+				5409BB9C1DEAC95E00B8D4D3 /* WSASTableViewCell.m in Sources */,
 				7DF74E781DE05B11008B0F14 /* main.m in Sources */,
+				7DF74E8F1DE063AF008B0F14 /* WSViewController.m in Sources */,
+				5409BBA91DEAD5F700B8D4D3 /* ViewController.m in Sources */,
+				5409BBA61DEAD35A00B8D4D3 /* WSCollectionViewCell.m in Sources */,
+				5409BBA31DEAD33A00B8D4D3 /* WSCollectionViewController.m in Sources */,
+				5409E7BA1DE9A5890066BC47 /* WSCell.m in Sources */,
+				5409BB581DEABE4700B8D4D3 /* WSASViewController.m in Sources */,
+				7DF74E921DE06829008B0F14 /* FpsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7DF74E7F1DE05B11008B0F14 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DF74E801DE05B11008B0F14 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DF74E841DE05B11008B0F14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,8 +424,12 @@
 		};
 		7DF74E8B1DE05B11008B0F14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BABCB78B4AD3C444482AC5 /* Pods-learnAsyncDisplayKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
 				INFOPLIST_FILE = learnAsyncDisplayKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WS.learnAsyncDisplayKit;
@@ -281,8 +439,12 @@
 		};
 		7DF74E8C1DE05B11008B0F14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D58B9B814EA480A5A1DE185 /* Pods-learnAsyncDisplayKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = NT9VR9C9HY;
 				INFOPLIST_FILE = learnAsyncDisplayKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WS.learnAsyncDisplayKit;
@@ -309,6 +471,7 @@
 				7DF74E8C1DE05B11008B0F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
