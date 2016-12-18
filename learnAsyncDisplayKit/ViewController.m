@@ -10,6 +10,7 @@
 #import "WSCollectionViewController.h"
 #import "WSASViewController.h"
 #import "WSViewController.h"
+#import "WSASCollectionViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -69,7 +70,8 @@
             break;
         case 3:
         {
-            WSViewController *wsVc = [[WSViewController alloc] init];
+            UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+            WSASCollectionViewController *wsVc = [[WSASCollectionViewController alloc] initWithCollectionViewLayout:layout];
             [self.navigationController pushViewController:wsVc animated:true];
         }
             break;

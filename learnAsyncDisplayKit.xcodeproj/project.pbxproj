@@ -13,6 +13,29 @@
 		5409BBA61DEAD35A00B8D4D3 /* WSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409BBA51DEAD35A00B8D4D3 /* WSCollectionViewCell.m */; };
 		5409BBA91DEAD5F700B8D4D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409BBA81DEAD5F700B8D4D3 /* ViewController.m */; };
 		5409E7BA1DE9A5890066BC47 /* WSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409E7B91DE9A5890066BC47 /* WSCell.m */; };
+		546527301E067BA700EA9122 /* WSASCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5465272F1E067BA700EA9122 /* WSASCollectionCell.m */; };
+		546527461E06856600EA9122 /* 0.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527311E06856600EA9122 /* 0.JPG */; };
+		546527471E06856600EA9122 /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527321E06856600EA9122 /* 1.JPG */; };
+		546527481E06856600EA9122 /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527331E06856600EA9122 /* 2.JPG */; };
+		546527491E06856600EA9122 /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527341E06856600EA9122 /* 3.JPG */; };
+		5465274A1E06856600EA9122 /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527351E06856600EA9122 /* 4.JPG */; };
+		5465274B1E06856600EA9122 /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527361E06856600EA9122 /* 5.JPG */; };
+		5465274C1E06856600EA9122 /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527371E06856600EA9122 /* 6.JPG */; };
+		5465274D1E06856600EA9122 /* 7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527381E06856600EA9122 /* 7.JPG */; };
+		5465274E1E06856600EA9122 /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527391E06856600EA9122 /* 8.JPG */; };
+		5465274F1E06856600EA9122 /* 9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5465273A1E06856600EA9122 /* 9.JPG */; };
+		546527501E06856600EA9122 /* 10.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5465273B1E06856600EA9122 /* 10.JPG */; };
+		546527511E06856600EA9122 /* 11.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5465273C1E06856600EA9122 /* 11.JPG */; };
+		546527521E06856600EA9122 /* 12.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5465273D1E06856600EA9122 /* 12.JPG */; };
+		546527531E06856600EA9122 /* 13.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5465273E1E06856600EA9122 /* 13.JPG */; };
+		546527541E06856600EA9122 /* 14.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5465273F1E06856600EA9122 /* 14.JPG */; };
+		546527551E06856600EA9122 /* 15.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527401E06856600EA9122 /* 15.JPG */; };
+		546527561E06856600EA9122 /* 16.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527411E06856600EA9122 /* 16.JPG */; };
+		546527571E06856600EA9122 /* 17.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527421E06856600EA9122 /* 17.JPG */; };
+		546527581E06856600EA9122 /* 18.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527431E06856600EA9122 /* 18.JPG */; };
+		546527591E06856600EA9122 /* 19.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527441E06856600EA9122 /* 19.JPG */; };
+		5465275A1E06856600EA9122 /* 20.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 546527451E06856600EA9122 /* 20.JPG */; };
+		54B0FAC11DF83D0A008152DA /* WSASCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B0FAC01DF83D0A008152DA /* WSASCollectionViewController.m */; };
 		7DF74E781DE05B11008B0F14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF74E771DE05B11008B0F14 /* main.m */; };
 		7DF74E7B1DE05B11008B0F14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF74E7A1DE05B11008B0F14 /* AppDelegate.m */; };
 		7DF74E831DE05B11008B0F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF74E821DE05B11008B0F14 /* Assets.xcassets */; };
@@ -35,6 +58,31 @@
 		5409BBA81DEAD5F700B8D4D3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5409E7B81DE9A5890066BC47 /* WSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCell.h; sourceTree = "<group>"; };
 		5409E7B91DE9A5890066BC47 /* WSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCell.m; sourceTree = "<group>"; };
+		5465272E1E067BA700EA9122 /* WSASCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSASCollectionCell.h; sourceTree = "<group>"; };
+		5465272F1E067BA700EA9122 /* WSASCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSASCollectionCell.m; sourceTree = "<group>"; };
+		546527311E06856600EA9122 /* 0.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.JPG; sourceTree = "<group>"; };
+		546527321E06856600EA9122 /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
+		546527331E06856600EA9122 /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
+		546527341E06856600EA9122 /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
+		546527351E06856600EA9122 /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
+		546527361E06856600EA9122 /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
+		546527371E06856600EA9122 /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
+		546527381E06856600EA9122 /* 7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.JPG; sourceTree = "<group>"; };
+		546527391E06856600EA9122 /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
+		5465273A1E06856600EA9122 /* 9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.JPG; sourceTree = "<group>"; };
+		5465273B1E06856600EA9122 /* 10.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.JPG; sourceTree = "<group>"; };
+		5465273C1E06856600EA9122 /* 11.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.JPG; sourceTree = "<group>"; };
+		5465273D1E06856600EA9122 /* 12.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.JPG; sourceTree = "<group>"; };
+		5465273E1E06856600EA9122 /* 13.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.JPG; sourceTree = "<group>"; };
+		5465273F1E06856600EA9122 /* 14.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.JPG; sourceTree = "<group>"; };
+		546527401E06856600EA9122 /* 15.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.JPG; sourceTree = "<group>"; };
+		546527411E06856600EA9122 /* 16.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.JPG; sourceTree = "<group>"; };
+		546527421E06856600EA9122 /* 17.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.JPG; sourceTree = "<group>"; };
+		546527431E06856600EA9122 /* 18.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.JPG; sourceTree = "<group>"; };
+		546527441E06856600EA9122 /* 19.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.JPG; sourceTree = "<group>"; };
+		546527451E06856600EA9122 /* 20.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.JPG; sourceTree = "<group>"; };
+		54B0FABF1DF83D0A008152DA /* WSASCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSASCollectionViewController.h; sourceTree = "<group>"; };
+		54B0FAC01DF83D0A008152DA /* WSASCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSASCollectionViewController.m; sourceTree = "<group>"; };
 		7DF74E731DE05B11008B0F14 /* learnAsyncDisplayKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnAsyncDisplayKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF74E771DE05B11008B0F14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DF74E791DE05B11008B0F14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +143,10 @@
 		5409BB9E1DEACFBA00B8D4D3 /* collectionView */ = {
 			isa = PBXGroup;
 			children = (
+				54B0FABF1DF83D0A008152DA /* WSASCollectionViewController.h */,
+				54B0FAC01DF83D0A008152DA /* WSASCollectionViewController.m */,
+				5465272E1E067BA700EA9122 /* WSASCollectionCell.h */,
+				5465272F1E067BA700EA9122 /* WSASCollectionCell.m */,
 			);
 			name = collectionView;
 			sourceTree = "<group>";
@@ -161,6 +213,27 @@
 		7DF74E761DE05B11008B0F14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				546527311E06856600EA9122 /* 0.JPG */,
+				546527321E06856600EA9122 /* 1.JPG */,
+				546527331E06856600EA9122 /* 2.JPG */,
+				546527341E06856600EA9122 /* 3.JPG */,
+				546527351E06856600EA9122 /* 4.JPG */,
+				546527361E06856600EA9122 /* 5.JPG */,
+				546527371E06856600EA9122 /* 6.JPG */,
+				546527381E06856600EA9122 /* 7.JPG */,
+				546527391E06856600EA9122 /* 8.JPG */,
+				5465273A1E06856600EA9122 /* 9.JPG */,
+				5465273B1E06856600EA9122 /* 10.JPG */,
+				5465273C1E06856600EA9122 /* 11.JPG */,
+				5465273D1E06856600EA9122 /* 12.JPG */,
+				5465273E1E06856600EA9122 /* 13.JPG */,
+				5465273F1E06856600EA9122 /* 14.JPG */,
+				546527401E06856600EA9122 /* 15.JPG */,
+				546527411E06856600EA9122 /* 16.JPG */,
+				546527421E06856600EA9122 /* 17.JPG */,
+				546527431E06856600EA9122 /* 18.JPG */,
+				546527441E06856600EA9122 /* 19.JPG */,
+				546527451E06856600EA9122 /* 20.JPG */,
 				7DF74E771DE05B11008B0F14 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,8 +318,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				546527541E06856600EA9122 /* 14.JPG in Resources */,
+				546527501E06856600EA9122 /* 10.JPG in Resources */,
+				5465274E1E06856600EA9122 /* 8.JPG in Resources */,
+				546527481E06856600EA9122 /* 2.JPG in Resources */,
+				5465274B1E06856600EA9122 /* 5.JPG in Resources */,
+				546527571E06856600EA9122 /* 17.JPG in Resources */,
+				546527561E06856600EA9122 /* 16.JPG in Resources */,
+				546527461E06856600EA9122 /* 0.JPG in Resources */,
+				546527471E06856600EA9122 /* 1.JPG in Resources */,
+				546527491E06856600EA9122 /* 3.JPG in Resources */,
+				5465274D1E06856600EA9122 /* 7.JPG in Resources */,
+				5465274A1E06856600EA9122 /* 4.JPG in Resources */,
+				546527531E06856600EA9122 /* 13.JPG in Resources */,
+				546527511E06856600EA9122 /* 11.JPG in Resources */,
+				546527521E06856600EA9122 /* 12.JPG in Resources */,
+				546527551E06856600EA9122 /* 15.JPG in Resources */,
+				546527581E06856600EA9122 /* 18.JPG in Resources */,
+				5465274C1E06856600EA9122 /* 6.JPG in Resources */,
+				5465274F1E06856600EA9122 /* 9.JPG in Resources */,
 				7DF74E861DE05B11008B0F14 /* LaunchScreen.storyboard in Resources */,
 				7DF74E831DE05B11008B0F14 /* Assets.xcassets in Resources */,
+				546527591E06856600EA9122 /* 19.JPG in Resources */,
+				5465275A1E06856600EA9122 /* 20.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +402,9 @@
 				7DF74E7B1DE05B11008B0F14 /* AppDelegate.m in Sources */,
 				5409BB9C1DEAC95E00B8D4D3 /* WSASTableViewCell.m in Sources */,
 				7DF74E781DE05B11008B0F14 /* main.m in Sources */,
+				54B0FAC11DF83D0A008152DA /* WSASCollectionViewController.m in Sources */,
 				7DF74E8F1DE063AF008B0F14 /* WSViewController.m in Sources */,
+				546527301E067BA700EA9122 /* WSASCollectionCell.m in Sources */,
 				5409BBA91DEAD5F700B8D4D3 /* ViewController.m in Sources */,
 				5409BBA61DEAD35A00B8D4D3 /* WSCollectionViewCell.m in Sources */,
 				5409BBA31DEAD33A00B8D4D3 /* WSCollectionViewController.m in Sources */,
@@ -432,7 +528,7 @@
 				DEVELOPMENT_TEAM = NT9VR9C9HY;
 				INFOPLIST_FILE = learnAsyncDisplayKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WS.learnAsyncDisplayKit;
+				PRODUCT_BUNDLE_IDENTIFIER = ws.learnAsyncDisplayKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -447,7 +543,7 @@
 				DEVELOPMENT_TEAM = NT9VR9C9HY;
 				INFOPLIST_FILE = learnAsyncDisplayKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WS.learnAsyncDisplayKit;
+				PRODUCT_BUNDLE_IDENTIFIER = ws.learnAsyncDisplayKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

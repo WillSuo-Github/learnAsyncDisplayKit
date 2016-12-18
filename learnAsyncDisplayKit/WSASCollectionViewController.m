@@ -1,37 +1,30 @@
 //
-//  WSCollectionViewController.m
+//  WSASCollectionViewController.m
 //  learnAsyncDisplayKit
 //
-//  Created by ws on 2016/11/27.
+//  Created by ws on 2016/12/7.
 //  Copyright © 2016年 WS. All rights reserved.
 //
 
-#import "WSCollectionViewController.h"
-#import "WSCollectionViewCell.h"
+#import "WSASCollectionViewController.h"
+#import "WSASCollectionCell.h"
 
-@interface WSCollectionViewController ()<UICollectionViewDelegateFlowLayout>
+@interface WSASCollectionViewController ()<UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) NSMutableArray *sourceArr;
 @end
 
-@implementation WSCollectionViewController
+@implementation WSASCollectionViewController
 
 static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.collectionView registerClass:[WSASCollectionCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
-    // Uncomment the following line to preserve selection between presentations
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Register cell classes
-    
-    [self.collectionView registerClass:[WSCollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
-    NSInteger i = 1 % 20;
-    NSLog(@"%ld",i);
     [self configSourceArr];
-    // Do any additional setup after loading the view.
 }
+
 
 - (void)configSourceArr {
     
@@ -44,17 +37,15 @@ static NSString * const reuseIdentifier = @"Cell";
     [self.collectionView reloadData];
 }
 
-
-
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-
+    
     return self.sourceArr.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    WSCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    WSASCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     cell.myImage = self.sourceArr[indexPath.row];
     
@@ -76,11 +67,11 @@ static NSString * const reuseIdentifier = @"Cell";
 
 #pragma mark <UICollectionViewDelegate>
 
+
 #pragma mark -
 #pragma mark - dealloc
 - (void)dealloc{
-    NSLog(@"normal collection dealloc");
+    NSLog(@"as collection dealloc");
 }
-
 
 @end
